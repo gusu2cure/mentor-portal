@@ -1,0 +1,132 @@
+<div class="headerImg">
+  <a href="#!/user"><img class='logoImg' src="images/gusu-SIGNUP!.png" alt="" ></a>
+  <a href="http://www.mnscia.org/"><img class='logoImgR' src="images/MN_SCIA_Stacked.png" alt="" ></a>
+</div>
+
+
+<!-- <div class="question1">
+  <h1>GET UP SIGN UP</h1></div> -->
+<div class="threeHobbies">
+
+  <div class='currentPage'>
+    <p class='circlesAct'>1</p>
+    <p class='circlesNon'>2</p>
+    <p class='circlesNon'>3</p>
+    <p class='circlesNon'>4</p>
+    <!-- <p class='circlesNon'>5</p> -->
+
+  </div>
+  <p>*All Fields Required</p>
+</div>
+<div class="sides">
+
+
+  <div class="page">
+    <div class="container">
+      <div class="row">
+
+        <div class="radioBtn">
+          <div class='radioB'>
+            <h5>I am a </h5>
+            <input type="radio" id="radio01" name="radio" value="1" ng-model='sc.radioValue' />
+            <label for="radio01"><span></span>Mentor</label>
+            <br>
+            <!-- <h5>I am a </h5> -->
+            <input type="radio" id="radio02" name="radio" value="2" ng-model='sc.radioValue' />
+            <label for="radio02"><span></span>Mentee</label>
+          </div>
+          <!-- <input type="radio" name="mentor" value="1" ng-model='sc.radioValue'>
+          <label class='role' for="mentor">Mentor</label>
+
+          <input type="radio" name="mentee" value="2" ng-model='sc.radioValue'>
+          <label class='role' for="mentee">Mentee</label> -->
+        </div>
+
+        <div class="col-md-6">
+          <label for="dob">Date of Birth</label>
+          <input type="date" name="dob" class="inputDOB" ng-model='sc.dateBirth'>
+        </div>
+        <div class='col-md-6'>
+          <label for="gender">Gender</label>
+          <select class="Gender" name="gender" ng-model='sc.gender'>
+          <!-- <option value="" disabled selected>?</option> -->
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+          <option value="Other">Other</option>
+          <option value="Not">Prefer Not to Say</option>
+        </select>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 address">
+          <label for="address">Street</label><input type="text" class="street" name="street" ng-model='sc.address'>
+          <label for="city">City</label><input type="text" class="city" name="city" ng-model='sc.city'>
+        </div>
+        <div class='col-md-6 address'>
+          <label for="state">State</label><input type="text" class="state" name="state" value="" maxlength='2' ng-model='sc.state' class='state'>
+
+
+          <label for="zip">ZIP Code</label>
+          <input type="number" name="zip" maxlength="5" ng-model='sc.zipcode' class='zipInput'>
+        </div>
+        <div class='col-md-6 phone'>
+          <label for="phone_type">Phone</label>
+          <input type="tel" id='phone' name="phone" minlength="10" ng-model='sc.phone'>
+        </div>
+        <div class='col-md-6 phone'>
+          <label for="phone_type">Phone Type</label>
+          <select class="" name="phone_type" ng-model='sc.phoneType'>
+          <!-- <option value="" disabled selected>?</option> -->
+          <option value="Mobile">Mobile</option>
+          <option value="Home">Home</option>
+          <option value="Work">Work</option>
+          <option value="Other">Other</option>
+          </select>
+        </div>
+      </div>
+    </div>
+
+
+    <div class='setting'><label for="visit">What setting(s) are you willing to visit?</label> </div>
+    <div class="container">
+      <div class="row">
+
+        <div class="checkDiv">
+          <ul class='multi-column'>
+            <li><input class='checks' type='checkbox' name='visit' value="Hospital">Hospital</input>
+            </li>
+            <li><input class='checks' type='checkbox' name='visit' value="Rehab Center">Rehabilitation Center</input>
+            </li>
+            <li><input class='checks' type='checkbox' name='visit' value="At home">At their home</input>
+            </li>
+            <li><input class='checks' type='checkbox' name='visit' value="Online">Video Call (Google Hangout)</input>
+            </li>
+            <li><input class='checks' type='checkbox' name='visit' value="Phone">Phone Calls</input>
+            </li>
+            <li><input class='checks' type='checkbox' name='visit' value="Public">In Public</input>
+            </li>
+            <li><input class='checks' type='checkbox' name='visit' value="Care Ctr./Nursing Home">Care Center/Nursing Home</input>
+            </li>
+            <li><input class='checks' type='checkbox' name='visit' value="Any/All">Any/All</input>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div>
+      <!-- <a href="#!/injury"><button type="button" name="button">next</button></a> -->
+      <div class="nextBtn">
+        <button class='submitBtn' type="button" name="button" ng-click='sc.submit()'><i class="fa fa-arrow-circle-o-right fa-4x" aria-hidden="true"></i></button>
+      </div>
+    </div>
+
+
+  </div>
+</div>

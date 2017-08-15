@@ -1,0 +1,30 @@
+{
+  "name": "gusu2cure",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.6.5",
+    "angular-chart.js": "^1.1.1",
+    "angular-route": "^1.6.5",
+    "bcrypt": "^1.0.2",
+    "body-parser": "^1.17.2",
+    "bootstrap": "^3.3.7",
+    "bootstrap-ui": "^2.3.3",
+    "express": "^4.15.3",
+    "express-session": "^1.15.4",
+    "jQuery": "^1.7.4",
+    "jquery": "^3.2.1",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "pg": "^7.0.2",
+    "twilio": "^3.6.1",
+    "zingchart-angularjs": "^1.2.0"
+  }
+}
