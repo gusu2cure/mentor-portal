@@ -1,10 +1,10 @@
 # GetUp StandUp: Peer Mentor Portal
 
 ## Issue(s)
-- Issues/problems to solve for client
+- Issues/problems to solve...
 
 ## Solution(s)
-- High-level proposed/implemented solutions to client's issues/problems
+- High-level proposed/implemented solutions...
 
 ## Technology
 - JavaScript
